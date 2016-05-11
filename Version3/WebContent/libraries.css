@@ -1,0 +1,110 @@
+@CHARSET "ISO-8859-1";
+
+.demo-3 {
+    position:relative;
+    width:500px;
+    height:250px;
+    overflow:hidden;
+    float:center;
+    margin-top:15px;
+    z-index: 999999;
+}
+.demo-3 figure {
+    margin:0;
+    padding:2px;
+    position:relative;
+    cursor:pointer;
+}
+.demo-3 figure img {
+    display:block;
+    width:500px;
+    height:250px;
+    position:relative;
+    z-index:10;
+    margin:-15px 0;
+    overflow:hidden;
+    float:center;
+}
+.demo-3 figure figcaption {
+    display:block;
+    position:absolute;
+    z-index:5;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    width:500px;
+    height:250px;
+}
+.demo-3 figure h2 {
+    font-family:'Rockwell';
+    color:#e3cf1c;
+    font-size:30px;
+    line-height:30px;
+    text-align:center;
+    font-style:uppercase;
+    display:block;
+}
+.demo-3 figure p {
+    display:block;
+    font-family:'Calibri Light';
+    font-size:26px;
+    line-height:26px;
+    margin:0;
+    color:#fff;
+    text-align:center;
+    
+}
+.demo-3 figure figcaption {
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    padding:44px 44px 44px 44px;
+    background-color:#373737;
+    text-align:center;
+    backface-visibility:hidden;
+    -webkit-transform:rotateY(-180deg);
+    -moz-transform:rotateY(-180deg);
+    transform:rotateY(-180deg);
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s
+}
+.demo-3 figure img {
+    backface-visibility:hidden;
+    -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s;
+}
+.demo-3 figure:hover img,figure.hover img {
+    -webkit-transform:rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    transform:rotateY(180deg);
+}
+.demo-3 figure:hover figcaption,figure.hover figcaption {
+    -webkit-transform:rotateY(0);
+    -moz-transform:rotateY(0);
+    transform:rotateY(0)
+}
+
+.button {
+    background-color: #373737; /* Green */
+    border: 3px solid #FFFFFF;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #e3cf1c; 
+    color: #373737; 
+    border: 2px solid #e3cf1c;
+}

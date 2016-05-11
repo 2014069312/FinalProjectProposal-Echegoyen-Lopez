@@ -1,0 +1,78 @@
+@CHARSET "ISO-8859-1";
+
+body {
+  	background-image:url('background.png');
+    background-attachment:absolute;
+    width: 100%;
+    font-family: 'Calibri Light', serif;
+    font-size: 30pt;
+    line-height:16px;
+    text-align:justify; 
+    
+}
+
+
+.heading{
+    font-family: 'Poiret One', cursive;
+    font-size:62px;
+    letter-spacing:2px;
+    font-weight:normal;
+    text-transform:uppercase;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:110px;
+    
+}
+
+#navwrap{
+    background:#333;
+    top: 0px;
+    width: 100%;
+    height:80px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    position: relative;
+    z-index: 999999;
+}
+
+nav a {
+    font-family: 'Calibri Light';
+    background-position: center;
+    font-size:30px;
+    text-shadow: 2px 2px #2B3856;
+    line-height: 2.5em;
+    padding-left: 10px;
+    padding-right: 10px;
+	position: relative;
+	display: inline-block;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	transition: all 1s ease;
+	
+}
+
+nav a:hover,
+nav a:focus,
+nav a:hover img{
+	display: inline-block;
+	height: 100%;
+	position: relative;
+	line-height: 2em;
+	text-shadow:3px 0px 0px #FFF9FF, -3px 0px 0px #FFFF9F;
+    font-style: italic;
+    -moz-transition-duration:1s;
+    -webkit-transition-duration:1s;
+    -o-transition-duration:1s;
+}
+
+.titleheader
+{
+	color: #eec968;
+	font-family: Lobster 1.4;
+	text-shadow: 2px 2px #000000;
+}

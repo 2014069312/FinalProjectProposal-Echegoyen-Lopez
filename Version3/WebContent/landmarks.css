@@ -1,0 +1,64 @@
+@CHARSET "ISO-8859-1";
+
+.container {
+  position: relative;
+  height: 660px;
+  width: 1200px;
+  overflow: hidden;
+  margin: 0 auto;
+  top:20px;
+}
+
+.container a {
+  float: center;
+  margin: 5px;
+  
+}
+
+.big {
+  position: absolute;
+  float: middle;
+  top: 260px;
+  left: -15px;
+}
+
+.big {
+  position: absolute;
+  left:-15px;
+  top: 900px;
+  height: 660px;
+  width: 1200px;
+
+  -webkit-transition: top 1s ease;
+  -moz-transition: top 1s ease;
+  -o-transition: top 1s ease;
+  -ms-transition: top 1s ease;
+  transition: top 1s ease;
+}
+
+.featured {
+
+  top: 200px;
+  z-index: -3;
+  left:-15px;
+  display:block;
+}
+
+.thumb
+{
+	width:130px;
+	position: relative;
+	border-radius:95%;
+	transition: all .4s ease;
+	text-decoration: none;
+}
+
+a:hover .thumb {
+  border-radius:20px 0px 20px 0px;
+}
+
+a:hover .big {
+  top: 200px;
+  left: -15px;
+}
+
